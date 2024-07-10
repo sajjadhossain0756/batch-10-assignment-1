@@ -147,4 +147,36 @@ nav li a{
 .developer-card-image{
     flex-basis: 1;
 }
+/* inspiration section start here */
+.inspiration-section{
+    margin: 10px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inspiration-container{
+    text-align: center;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.inspiration-container h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+.inspiration-container p{
+    opacity: 70%;
+}
+.inspiration-vedio{
+    border: 1px solid ;
+    padding: 15px;
+    border-radius: 16px;
+}
+.inspiration-vedio iframe{
+    width: 100%;
+    border-radius: 16px;
+}
+
 
