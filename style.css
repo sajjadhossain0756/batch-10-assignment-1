@@ -264,9 +264,7 @@ nav li a{
     width: 700px;
     margin: 30px auto;
 }
-.next-target-cards{
-    padding-left: 20px;
-}
+
 .next-target-card{
     display: flex;
     align-items: center;
