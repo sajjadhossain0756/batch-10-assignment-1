@@ -23,6 +23,7 @@
 .btn-primary{
     font-size: 20px;
     font-weight: 600;
+    width: 150px;
     padding: 12px 20px;
     background-color: #fff;
 }
@@ -88,6 +89,8 @@ nav li a{
 .hero-button button{
     padding: 20px 24px;
     font-size: 20px;
+    width: 220px;
+    text-transform: lowercase;
     color: white;
     font-weight: 600;
     background-color: #0D1321;
@@ -143,6 +146,9 @@ nav li a{
 .developer-card-content p{
     opacity: 70%;
     margin-bottom: 20px;
+}
+.developer-card-content button{
+    border: 1px solid;
 }
 .developer-card-image{
     flex-basis: 1;
@@ -249,7 +255,7 @@ nav li a{
     background-image: url(./assets/handshake.jpg);
     background-position: center;
     background-size: cover;
-    width: 1050px;
+    width: 1080px;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -292,6 +298,28 @@ nav li a{
     width: 30%;
     font-size: 20px;
     font-weight: 600;
+}
+/* footer styles start here */
+footer{
+    background-color: #f8f8f8;
+}
+.footer-container{
+    margin: 0px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.footer-container p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer-container ul{
+    display: flex;
+    gap: 15px;
+}
+.footer-container li{
+    list-style: none;
 }
 
 
