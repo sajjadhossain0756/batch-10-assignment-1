@@ -249,6 +249,46 @@ nav li a{
     border: none;
     margin-left: -35px;
 }
+/* my next-target styles start here */
+.next-target-section{
+    margin: 30px 80px;
+}
+.next-target-container .title{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+.next-target-container .description{
+    opacity: 70%;
+    text-align: center;
+    width: 700px;
+    margin: 30px auto;
+}
+.next-target-cards{
+    padding-left: 20px;
+}
+.next-target-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 1px solid;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+.next-target-content h2{
+    font-size: 24px;
+    font-weight: 800;
+}
+.next-target-content p{
+    opacity: 70%;
+    margin: 10px 0px;
+}
+.next-target-content button{
+    margin-left: -20px;
+}
+
 /* support section styles start here */
 .support-section{
     margin: 30px 80px;
