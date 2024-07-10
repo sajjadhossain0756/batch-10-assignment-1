@@ -12,9 +12,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* color variable declaration */
+/* variable declaration */
 .color-primary{
     color: #0D1321;
+}
+
+.text-style{
+    text-decoration: none;
+}
+.btn-primary{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+    background-color: #fff;
 }
 
 /* nav section styles start here */
@@ -84,3 +94,57 @@ nav li a{
     border: none;
     border-radius: 8px;
 }
+/* why-developer section start here */
+.why-developer-section{
+    background-color: #fafafb;
+    margin: 70px 80px;
+    border-radius: 16px;
+}
+.developer-container{
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+.developer-content h2{
+    font-size: 28px;
+    font-weight: 800;
+    margin: 24px 0px;
+    padding-top: 80px;
+}
+.developer-content p{
+    opacity: 70%;
+}
+/* developer card section styles start here */
+.developer-cards{
+    margin: 50px 0px;
+    padding-bottom: 30px;
+}
+.developer-card{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-basis: 3;
+    gap: 40px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 16px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.developer-card-content{
+    flex-basis: 2;
+}
+.developer-card-content h2{
+    font-size: 24px;
+    font-weight: 600;
+    padding-right: 40px;
+    margin-bottom: 20px;
+}
+.developer-card-content p{
+    opacity: 70%;
+    margin-bottom: 20px;
+}
+.developer-card-image{
+    flex-basis: 1;
+}
+
