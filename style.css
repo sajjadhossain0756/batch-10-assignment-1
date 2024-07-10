@@ -241,6 +241,57 @@ nav li a{
     font-size: 18px;
     background: transparent;
     border: none;
-    text-align: left;
+    margin-left: -35px;
 }
+/* support section styles start here */
+.support-section{
+    margin: 30px 80px;
+    background-image: url(./assets/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 1050px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    border-radius: 16px;
+}
+.support-container{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.support-container h2{
+    font-size: 30px;
+    font-weight: 800;
+}
+.support-container p{
+    opacity: 70%;
+    margin: 20px 0px;
+    width: 600px;
+}
+.support-container form{
+    width: 750px;
+    display: flex;
+    gap: 15px;
+}
+.support-container form input, button{
+    width: 70%;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+}
+.support-container form button{
+    width: 30%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 
