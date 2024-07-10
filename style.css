@@ -26,6 +26,7 @@
     width: 150px;
     padding: 12px 20px;
     background-color: #fff;
+    cursor: pointer;
 }
 
 /* nav section styles start here */
@@ -96,6 +97,7 @@ nav li a{
     background-color: #0D1321;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
 }
 /* why-developer section start here */
 .why-developer-section{
@@ -331,6 +333,7 @@ nav li a{
     font-size: 18px;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 .support-container form button{
     width: 30%;
