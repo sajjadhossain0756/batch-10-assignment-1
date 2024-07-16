@@ -57,7 +57,7 @@ nav li a{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    max-width: 100%;
     height: auto;
     margin: 50px 0px;
     display: flex;
@@ -107,7 +107,7 @@ nav li a{
 }
 .developer-container{
     text-align: center;
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto;
 }
 .developer-content h2{
@@ -165,7 +165,7 @@ nav li a{
 }
 .inspiration-container{
     text-align: center;
-    width: 700px;
+    max-width: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,7 +197,7 @@ nav li a{
 }
 
 .current-target-content{
-    width: 700px;
+    max-width: 700px;
     margin: 0 auto;
     text-align: center;
 }
@@ -214,7 +214,6 @@ nav li a{
     justify-content: center;
     align-items: center;
     gap: 30px;
-    
     padding: 20px 40px;
     margin-top: 30px;
 }
@@ -234,8 +233,8 @@ nav li a{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 410px;
-    height: 420px;
+    max-width: 410px;
+    max-height: 420px;
 }
 .current-target-card h2{
     font-size: 24px;
@@ -263,7 +262,7 @@ nav li a{
 .next-target-container .description{
     opacity: 70%;
     text-align: center;
-    width: 700px;
+    max-width: 700px;
     margin: 30px auto;
 }
 
@@ -295,7 +294,7 @@ nav li a{
     background-image: url(./assets/handshake.jpg);
     background-position: center;
     background-size: cover;
-    width: 1080px;
+    max-width: 1080px;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -320,10 +319,10 @@ nav li a{
 .support-container p{
     opacity: 70%;
     margin: 20px 0px;
-    width: 600px;
+    max-width: 600px;
 }
 .support-container form{
-    width: 750px;
+    max-width: 750px;
     display: flex;
     gap: 15px;
 }
@@ -333,12 +332,16 @@ nav li a{
     font-size: 18px;
     border-radius: 8px;
     border: none;
-    cursor: pointer;
+    
 }
 .support-container form button{
     width: 30%;
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
+}
+.support-container form input:focus{
+    outline: none;
 }
 /* footer styles start here */
 footer{
@@ -362,5 +365,158 @@ footer{
 .footer-container li{
     list-style: none;
 }
-
+.hide{
+    display: none;
+}
+/* responsive design for mobile device or small device */
+@media screen and (max-width:576px) {
+    /* nav section styles start here */
+    nav ul{
+        flex-direction: column; 
+        gap: 30px;
+        margin: 20px;
+    }
+    /* hero section styles start here */
+    .hero-image-container{
+        margin: 20px;
+    }
+    .hero-title{
+        font-size: 20px;
+    }
+    /* why-developer section start here */
+    .why-developer-section{
+        margin: 50px 20px;
+    }
+    .developer-content{
+        padding: 15px;
+    }
+    .developer-content h2{
+        font-size: 25px;
+    }
+    .developer-cards{
+        padding: 20px;
+    }
+    .developer-card{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 20px;
+    }
+    /* inspiration section start here */
+    .inspiration-section{
+        margin: 20px;
+    }
+    .inspiration-vedio{
+        max-width: 350px;
+    }
+    /* current-target section styles start here */
+    .current-target-section{
+       margin: 20px;
+       
+    }
+    .current-target-cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .current-target-card{
+        padding: 50px 20px;
+        text-align: center;
+    }
+    .current-target-card button{
+        margin: 0 auto;
+    }
+    /* my next-target styles start here */
+    .next-target-section{
+       margin: 30px;
+    }
+    .next-target-card{
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 40px;
+    }
+    /* support section styles start here */
+    .support-section{
+        margin: 20px;
+    }
+    .support-container{
+        padding: 20px;
+    }
+    .support-container form input{
+        font-size: 12px;
+    }
+    .support-container form button{
+        font-size: 16px;
+    }
+    /* footer styles start here */
+    .footer-container{
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        margin: 0px 20px;
+        text-align: center;
+    }
+    
+}
+/* responsive design for medium device or tablet */
+@media screen and (min-width:577px) and (max-width:992px) {
+    /* nav section styles start here */
+    nav ul{
+        gap: 30px;
+        margin: 50px;
+    }
+    /* hero section styles start here */
+    .hero-image-container{
+        margin: 50px;
+    }
+    /* why-developer section start here */
+    .why-developer-section{
+        margin: 50px;
+    }
+    .developer-content{
+        padding: 20px;
+    }
+    .developer-cards{
+        padding: 40px;
+    }
+    .developer-card{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 20px;
+    }
+    /* inspiration section start here */
+    .inspiration-section{
+        margin: 50px;
+    }
+    .inspiration-vedio{
+        max-width: 550px;
+    }
+    /* current-target section styles start here */
+    .current-target-section{
+        margin: 50px;
+        
+     }
+     .current-target-cards{
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+     .current-target-card{
+         padding: 50px 20px;
+         text-align: center;
+     }
+     .current-target-card button{
+         margin: 0 auto;
+     }
+    /* footer styles start here */
+    .footer-container{
+        gap: 30px;
+        justify-content: center;
+        margin: 0px 50px;
+        text-align: center;
+    }
+}
 
